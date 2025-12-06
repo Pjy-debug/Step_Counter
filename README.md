@@ -1,6 +1,6 @@
 # This is the final work for the class "intelligent sensing"
 ## Introduction
-This is the final work for the class "intelligent sensing". The work is count steps from the IMU data collected from cellphone. The data is collected by the [sensor data logger](github.com/PyojinKim/Sensors-Data-Logger). The data includes the time, acceleration, gyroscope, magnetic field, etc. The preliminary idea of data processing is to use the FFT to analyze the frequency domain of the data, furtherly figuring out the step frequency and total counts.
+This is the final work for the class "intelligent sensing". The work is count steps from the IMU data collected from cellphone. The data is collected by the [sensor data logger](https://github.com/PyojinKim/Sensors-Data-Logger). The data includes the time, acceleration, gyroscope, magnetic field, etc. The preliminary idea of data processing is to use the FFT to analyze the frequency domain of the data, furtherly figuring out the step frequency and total counts.
 ## Data Preparation
 Sensor data logger was packed into an apk with Android Studio. Then data was collected from this apk in a cellphone and was saved in the local storage of the cellphone in the format of .txt file. Then they were sent to the computer for further processing.
 ## Data Analysis
